@@ -36,3 +36,13 @@
 
 @media (max-width:544px){.hidden-xs{display:none!important}}
 @media (max-width:544px){.nano{font-size: 13px !important}}
+
+.bluet-input {
+  border-color: #D6D6D6 !important;
+  background-color: #F5F5F5 !important;
+  border-width: 2px
+}
+
+.bluet-text {
+  color: #007EC8 !important
+}
