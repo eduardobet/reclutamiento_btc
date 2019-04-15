@@ -1,10 +1,38 @@
 /* En este archivo debe agregar las clases CSS que considere necesarias para la realización de las pruebas de páginas Estáticas */
 .circulo {
-    background: #ffc0c0;
+    background: #007EC8;
     padding:40px;
     border-radius: 50%;
 }
 
 .circulo:hover {
-  background: #ff3444;
+  background: #27A9A2;
 }
+
+.fa-white {
+  color: #fff;
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.btn-dark{
+    color: #fff;
+    background-color: #6B6B6B ;
+    border-color: #6B6B6B ;
+    border-radius: 0
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #27A9A2;
+    border-color: #27A9A2;
+    border-radius: 0
+}
+
+@media (max-width:544px){.hidden-xs{display:none!important}}
+@media (max-width:544px){.nano{font-size: 13px !important}}
